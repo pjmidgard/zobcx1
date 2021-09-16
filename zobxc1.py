@@ -1124,7 +1124,7 @@ class compression:
                                     szxzs=""
                             
                                     assxw=assxw+1
-                                    if assxw==200:
+                                    if assxw==1:
                                         assx=10
                                         if assx==10:
                                                 if i==1:
