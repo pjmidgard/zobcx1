@@ -1,12 +1,10 @@
 # Portal-zst
 
-https://youtu.be/Ne82lgXQPFY
-
 Speed: Area 100B-10KB/s
 
 Instruction:
 1. Need python 
-2. install pip: pip install zstandard
+2. install pip: pip install brotlicffi
 3.
 
 ul; cl; .bin
