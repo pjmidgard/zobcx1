@@ -860,7 +860,7 @@ class compression:
 
                         if i==2:
 
-                            data= b'\x1b'+data	
+                        
                             import brotlicffi
                             data=brotlicffi.decompress(data)
                 
@@ -1535,14 +1535,6 @@ class compression:
                                                 if i==1:
                                                     import brotlicffi
                                                     jl=brotlicffi.compress(jl)
-                                                    
-                                                    if jl[0:1]!=b'\x1b':
-                                                        print("Program close because this is file incorrect")
-                                                        raise SystemExit
-
-                                                    if jl[0:1]==b'\x1b':
-                                                        jl=jl[1:]
-                                               
 
                                                 if i==2:
                                                     if Portal==7:
