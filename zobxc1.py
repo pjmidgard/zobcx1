@@ -775,7 +775,7 @@ class compression:
                    
     def cryptograpy_compression(self):
                 
-                self.name = "Written: Jurijus pacalovas Price Protal 5 000 000 Euro cost Date: 29/08/2021 21:33 Deep 14.5 ERA"
+                self.name = "Written: Jurijus pacalovas Price Protal 5 000 000 Euro cost Date: 16/09/2021 14:23 Deep 14.5 ERA"
                 
                 if namez=="ul" or namez=="cl":
                     if namez=="ul":
