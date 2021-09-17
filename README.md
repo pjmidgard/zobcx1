@@ -1,6 +1,6 @@
 # Portal-zst
 
-Speed: Area 100B-10KB/s
+Speed: Ultra 100B-1MB/s
 
 Instruction:
 1. Need python 
