@@ -1559,6 +1559,3 @@ print(xwc2)
 
 xw=d.cryptograpy_compression()
 print(xw)
-
-xw2=d.cryptograpy_compression2()
-print(xw2)
