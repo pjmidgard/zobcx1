@@ -66,7 +66,7 @@ namez = input("ul, c2, cld or for compress cl, u2 cldd for extract? ")
 #@Author Jurijus pacalovas
 class compression:
 
-        def cryptograpy_compression2(self):
+    def cryptograpy_compression2(self):
                 
                 self.name = "Written: Jurijus pacalovas Price Protal 5 000 000 Euro cost Date: 29/08/2021 21:33 Deep 14.5 ERA"
                 
