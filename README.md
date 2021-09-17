@@ -1,6 +1,6 @@
 # zobxc1
 
-Speed: Ultra 100B-100KB/s
+Speed: Ultra 100B-10KB/s
 
 Instruction:
 1. Need python 
