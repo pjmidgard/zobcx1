@@ -829,7 +829,7 @@ class compression:
                     cvf1=0
                     s=""
                     e2=0
-                    e3=2
+                    e3=1
                     e4=""
                     c=2
                     sw=2
