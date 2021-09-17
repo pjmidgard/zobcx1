@@ -62,9 +62,146 @@ wer=""
 qtqweqw=""
 numberschangenotexist = []
 numbers = []
-namez = input("ul,c2 or for compress cl for extract for u2? ")
+namez = input("ul, c2, cld or for compress cl, u2 cldd for extract? ")
 #@Author Jurijus pacalovas
 class compression:
+    def cryptograpy(self):
+                if namez=="cld":
+                    name = input("What is name of file? ")
+                    namea="file.W"
+                    namem=""
+                    namema="?"
+                    Portal=2
+                    assxw=0
+                    blockw=5
+                    blockw1=4
+                    nameas=name
+                    nac=len(nameas)
+                   
+                    nameas=name+".bin.bin.bin"
+                    
+                    countraz=0
+                    cvf=2
+                    cvf1=0
+                    s=""
+                    e2=0
+                    e3=2
+                    e4=""
+                    c=2
+                    sw=2
+                    elw=0
+                   
+                    sda3=""
+
+                    sscvf=0
+                    
+                    qqqqwzl=0
+
+                    block=0
+
+                    x=0
+                    x1=0
+                    x2=0
+                    x = time()
+                   
+                    with open(nameas, "w") as f4:
+                            f4.write(s)
+                    with open(nameas, "a") as f3:
+                            f3.write(s)
+                    with open(name, "rb") as binary_file:
+                        # Read the whole file at once
+                        data = binary_file.read()
+                        lenf10=len(data)
+                   
+                        
+                        import brotlicffi
+                        data=brotlicffi.compress(data)
+                        
+                    
+                        s=str(data)
+                        lenf1=len(data)
+                        lenf5=len(data)
+               
+                        
+                        with open(nameas, "ab") as f2:
+                            assx=10
+                            if assx==10:
+                                
+                                f2.write(data)
+                                x2 = time()
+                                x3=x2-x
+                                return print(x3)
+                                
+    def cryptograpy_unpack2(self):
+                if namez=="cldd":
+                    name = input("What is name of file? ")
+                    namea="file.W"
+                    namem=""
+                    namema="?"
+                    Portal=2
+                    assxw=0
+                    blockw=5
+                    blockw1=4
+                    nameas=name
+                    nac=len(nameas)
+                    nameas=nameas[:nac-12]
+                    nac=len(nameas)
+                   
+                        
+                    countraz=0
+                    cvf=2
+                    cvf1=0
+                    s=""
+                    e2=0
+                    e3=2
+                    e4=""
+                    c=2
+                    sw=2
+                    elw=0
+                   
+                    sda3=""
+
+                    sscvf=0
+                    
+                    qqqqwzl=0
+
+                    block=0
+
+                    x=0
+                    x1=0
+                    x2=0
+                    x = time()
+                   
+                    with open(nameas, "w") as f4:
+                            f4.write(s)
+                    with open(nameas, "a") as f3:
+                            f3.write(s)
+                    with open(name, "rb") as binary_file:
+                        # Read the whole file at once
+                        data = binary_file.read()
+                        lenf10=len(data)
+                        
+                        
+                        
+                        import brotlicffi
+                        data=brotlicffi.decompress(data)
+                      
+                   
+                        
+                        
+                        s=str(data)
+                        lenf1=len(data)
+                        lenf5=len(data)
+                
+                        with open(nameas, "ab") as f2:
+                            assx=10
+                            if assx==10:
+                                
+                                f2.write(data)
+                                x2 = time()
+                                x3=x2-x
+                                return print(x3) 
+    
 
     def Areacu2(self):
                     if namez=="u2":
@@ -857,7 +994,6 @@ class compression:
 
                        # Read the whole file at once
                         data = binary_file.read()
-
                         if i==2:
 
                         
@@ -1154,3 +1290,11 @@ print(xwc2)
 
 xw=d.cryptograpy_compression()
 print(xw)
+
+xw2=d.cryptograpy()
+print(xw2)
+
+xw3=d.cryptograpy_unpack2()
+print(xw3)
+
+
