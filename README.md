@@ -5,8 +5,7 @@ Speed: Ultra 100B-100KB/s
 Instruction:
 1. Need python 
 2. install pip: pip install brotlicffi
-3. install pip: pip install zstandard
-4. 
+3. 
 
 ul; cl; .bin
 
