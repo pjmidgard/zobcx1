@@ -13,7 +13,7 @@ c2; u2 .bin.bin
 
 cld; cldd .bin.bin.bin
 
-Jurijus Pacalovas have written a program.
+Jurijus Pacalovas have develop a program.
 
 4.34 v. zst
 
