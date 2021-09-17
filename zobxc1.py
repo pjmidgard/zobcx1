@@ -958,7 +958,7 @@ class compression:
                                 
                                 block=block+1
                                 
-                                if assxw==e3%2 or assxw==e3%10:
+                                if assxw>=e3%2 or assxw==e3%10:
                                             if e4=="0":
                                                 sda3=sda3+"0"
                                                 e4="0"
