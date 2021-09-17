@@ -114,8 +114,8 @@ class compression:
                         lenf10=len(data)
                    
                         
-                        import brotlicffi
-                        data=brotlicffi.compress(data)
+                        import zstandard
+                        data=zstandard.compress(data)
                         
                     
                         s=str(data)
@@ -183,8 +183,8 @@ class compression:
                         
                         
                         
-                        import brotlicffi
-                        data=brotlicffi.decompress(data)
+                        import zstandard
+                        data=zstandard.decompress(data)
                       
                    
                         
